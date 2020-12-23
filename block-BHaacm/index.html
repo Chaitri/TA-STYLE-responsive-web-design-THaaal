@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8bc5acd820.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <title>Responsive Web Design | Assignment 1</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex column center">
+            <a class="brand" href="#">
+                <img src="assets/logo.png" alt="brand logo">
+            </a>
+            <nav class="nav-bar">
+                <ul class="flex">
+                    <li><a href="#home">Home</a></li>
+                    <li><a class="active" href="#blog">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="container flex column-reverse align-start">
+                <article class="hero-article flex-46">
+                    <h2 class="section-heading">What is Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim, sapiente deleniti, beatae iste nobis ipsum reiciendis adipisci itaque repellendus atque dolor voluptates vel? Quis non distinctio vero nobis et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex itaque officia commodi unde in accusantium ipsam laboriosam quasi sunt non, ea voluptate inventore atque perspiciatis labore eaque? Dolore, inventore itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur excepturi officia quaerat!</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </article>
+                <div class="flex-46">
+                    <img src="assets/01.png" alt="intro image">
+                </div>
+            </div>
+        </section>
+
+        <!-- BLOG -->
+        <section id="blog" class="blog">
+            <h2 class="section-heading">Our Blog</h2>
+            <div class="container flex blog-items">
+                <article class="flex-30">
+                    <img src="assets/02.png" alt="Blog Image 1">
+                    <h3>Why do we use it?</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, aliquam assumenda. Dicta facere illum molestiae voluptatibus. Eaque ducimus saepe quisquam omnis.</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </article>
+                <article class="flex-30">
+                    <img src="assets/03.png" alt="Blog Image 2">
+                    <h3>Where does it come from?</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, aliquam assumenda. Dicta facere illum molestiae voluptatibus. Eaque ducimus saepe quisquam omnis.</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </article>
+                <article class="flex-30">
+                    <img src="assets/04.png" alt="Blog Image 3">
+                    <h3>Where can I get some?</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, aliquam assumenda. Dicta facere illum molestiae voluptatibus. Eaque ducimus saepe quisquam omnis.</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container flex column">
+            <small>&copy; AltCampus</small>
+            <nav class="socials">
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
