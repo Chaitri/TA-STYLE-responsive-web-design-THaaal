@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8bc5acd820.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <title>Responsive Web Design | Assignment 2</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+            <div class="brand">
+                <a href="#">
+                    Alt Events
+                </a>
+            </div>
+            <label class="bars" for="toggle">
+                <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" id="toggle">
+            <nav class="nav-bar">
+                <ul class="flex column">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a class="btn" href="#">Join Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <!-- HERO -->
+        <section class="hero padding">
+            <div class="hero-content container flex">
+                <article class="flex-46 hero-article">
+                    <h1>Web Developer <br> Conference <span class="primary-text">2020</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quia saepe ducimus ad molestias, illo deleniti nulla cum vitae laudantium amet magni perspiciatis.</p>
+                    <a class="btn" href="#">Register Now</a>
+                </article>
+                <div class="flex-30">
+                    <img class="full-width" src="assets/hero.png" alt="hero image">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about padding">
+            <div class="container flex">
+                <div class="flex-40">
+                    <img class="full-width" src="assets/about.png" alt="Conference room">
+                </div>
+                <article class="about-article flex-50">
+                    <h2>About the Event</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestiae tempore ea, sequi dolorum iste. Labore suscipit, placeat quaerat assumenda, maiores praesentium excepturi.</p>
+                    <a class="btn" href="#">Know More</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- JOIN -->
+        <section class="join padding">
+            <h2 class="section-header">Why You Should Join</h2>
+            <div class="join-content container flex">
+                <div class="flex-30 join-item">
+                    <span class="primary-text">1</span>
+                    <h3>Network</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem deleniti temporibus incidunt doloribus iure amet voluptas commodi.</p>
+                </div>
+                <div class="flex-30 join-item">
+                    <span class="primary-text">2</span>
+                    <h3>Great Speakers</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem deleniti temporibus incidunt doloribus iure amet voluptas commodi.</p>
+                </div>
+                <div class="flex-30 join-item">
+                    <span class="primary-text">3</span>
+                    <h3>Information</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem deleniti temporibus incidunt doloribus iure amet voluptas commodi.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SCHEDULE -->
+        <section class="schedule padding">
+            <h2 class="section-header">Schedule</h2>
+            <div class="container">
+                <div class="events">
+                    <div class="event-item flex column align-start">
+                        <date class="active">06 Sept</date>
+                        <img class="flex-20 full-width" src="assets/schedule-01.jpg" alt="Schedule 01">
+                        <div class="schedule-content">
+                            <h3>Digital World Event Conversation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, provident alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facilis.</p>
+                        </div>
+                    </div>
+                    <div class="event-item flex align-start">
+                        <date>07 Sept</date>
+                        <img class="flex-20 full-width" src="assets/schedule-02.jpg" alt="Schedule 02">
+                        <div class="schedule-content">
+                            <h3>Digital World Event Conversation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, provident alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facilis.</p>
+                        </div>
+                    </div>
+                    <div class="event-item flex align-start">
+                        <date>08 Sept</date>
+                        <img class="flex-20 full-width" src="assets/schedule-03.jpg" alt="Schedule 03">
+                        <div class="schedule-content">
+                            <h3>Digital World Event Conversation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, provident alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facilis.</p>
+                        </div>
+                    </div>
+                    <div class="event-item flex align-start">
+                        <date class="last">09 Sept</date>
+                        <img class="flex-20 full-width" src="assets/schedule-04.jpg" alt="Schedule 04">
+                        <div class="schedule-content">
+                            <h3>Digital World Event Conversation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, provident alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facilis.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="center">
+                <a class="btn" href="#">Download Schedule</a>
+            </div>
+        </section>
+
+        <!-- FEATURES -->
+        <section class="features padding">
+            <div class="container flex">
+                <div class="flex-30 feature-item">
+                    <img src="assets/speaker.png" alt="speaker icon">
+                    <h4>20+</h4>
+                    <p>Great Speakers</p>
+                </div>
+                <div class="flex-30 feature-item active">
+                    <img src="assets/idea.png" alt="idea icon">
+                    <h4>50+</h4>
+                    <p>Topics</p>
+                </div>
+                <div class="flex-30 feature-item">
+                    <img src="assets/participants.png" alt="participants icon">
+                    <h4>300+</h4>
+                    <p>Participants</p>
+                </div>
+                <div class="flex-30 feature-item">
+                    <img src="assets/sponsor.png" alt="sponsor icon">
+                    <h4>40+</h4>
+                    <p>Sponsors</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIDEO -->
+        <section class="video padding">
+            <div class="container">
+                <img class="full-width" src="assets/banner.png" alt="banner image">
+            </div>
+        </section>
+
+        <!-- NEWS -->
+        <section class="news padding">
+            <h2 class="section-header">Our Latest News</h2>
+            <div class="container flex align-start">
+                <article class="news-item flex-30">
+                    <img class="full-width" src="assets/news-01.png" alt="news 01">
+                    <h3>How to build a great portfolio as a beginner developer</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id esse distinctio voluptatem temporibus aut ducimus eligendi ad recusandae fugiat.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="news-item flex-30">
+                    <img class="full-width" src="assets/news-02.png" alt="news 02">
+                    <h3>Four Common Situations While Using Git and How to Solve Them</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id esse distinctio voluptatem temporibus aut ducimus eligendi ad recusandae fugiat.</p>
+                    <a class="active" href="#">Read More</a>
+                </article>
+                <article class="news-item flex-30">
+                    <img class="full-width" src="assets/news-03.png" alt="news 03">
+                    <h3>Basic Unix Commnads You Should Know</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id esse distinctio voluptatem temporibus aut ducimus eligendi ad recusandae fugiat.</p>
+                    <a href="#">Read More</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container flex column">
+                <img src="assets/footer-logo.png" alt="footer logo">
+                <div class="quick-links">
+                    <h3>Quick Links</h3>
+                    <nav>
+                        <ul class="flex column">
+                            <li><a href="#">Program</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Services</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="socials">
+                    <h3>Follow Us</h3>
+                    <nav class="flex">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="copyright">
+        <div class=" container">
+            <smaill>&copy; AltCampus Services Pvt Ltd., 2018 - Present</smaill>
+        </div>
+    </footer>
+</body>
+</html>
